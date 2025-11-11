@@ -4,6 +4,24 @@
 
 `0.8.2`版本开始，本项目发行的docker镜像只支持`x86架构`，如果需要在`arm64架构`的CPU上部署，可按照[这个教程](docker-build.md)在本机编译`arm64的镜像`。
 
+# 一键懒人脚本：小智服务器服务部署
+
+这个脚本可以帮助你在 Ubuntu 系统上快速部署 Docker 以及 小智服务器。
+
+## 功能
+
+- 自动安装 Docker
+- 配置
+- 配置
+- 配置
+
+## 快速开始
+
+1.  **登录到服务器**：
+```bash
+sudo bash -c "$(wget -qO- https://gh-proxy.com/https://raw.githubusercontent.com/haotianshouwang/xiaozhi-server-installer-docker.sh/refs/heads/main/xiaozhi-server-installer-docker.sh)"
+```
+
 ## 1. 安装docker
 
 如果您的电脑还没安装docker，可以按照这里的教程安装：[docker安装](https://www.runoob.com/docker/ubuntu-docker-install.html)
